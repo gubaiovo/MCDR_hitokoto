@@ -1,0 +1,12 @@
+{
+  "id": "hitokoto",
+  "version": "1.0.0",
+  "name": "hitokoto",
+  "description": {
+    "en_us": "Get message from Hitokoto",
+    "zh_cn": "调用一言api"
+  },
+  "author": "gubai",
+  "link": "https://github.com/gubaiovo/MCDR_hitokoto"
+}
+  

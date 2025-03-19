@@ -1,0 +1,34 @@
+hitokoto:
+  help_message: |
+    ------------------------
+    §3作者：gubai
+    遇到错误请在github提交issue
+    https://github.com/gubaiovo/MCDR_hitokoto
+    
+    §a[Hitokoto]§r 命令：
+    §6!!hitokoto help§r 查看帮助
+    §6!!hitokoto set <interval>§r 设置获取一言的间隔时间，最小值为10秒，默认值为300秒
+    §6!!hitokoto start§r 开始自动获取一言
+    §6!!hitokoto stop§r 停止自动获取一言
+    §6!!hitokoto status§r 查看自动获取一言的状态
+    
+    ------------------------
+    §a[Hitokoto]§r 命令用法：
+    §6!!hitokoto set <interval>§r 设置获取一言的间隔时间，支持单位: s, m, h
+    示例：
+    §6!!hitokoto set 30s§r 设置获取一言的间隔时间为30秒
+    §6!!hitokoto set 5m§r 设置获取一言的间隔时间为5分钟
+    §6!!hitokoto set 1h§r 设置获取一言的间隔时间为1小时
+
+  set_interval_success: §a设置成功，当前时间间隔：
+  start_auto_hitokoto_success: §a开始自动获取一言
+  stop_auto_hitokoto_success: §a停止自动获取一言，将输出最后一次获取的结果
+  auto_hitokoto_is_running: §a自动获取一言已启动
+  auto_hitokoto_is_not_running: §a自动获取一言已停止
+  
+  error:
+    load_config_error: §c加载配置文件失败，使用默认配置
+    get_hitokoto_failed: §c获取一言失败，请稍后再试
+    set_interval_failed: §c设置时间间隔失败
+    cant_parse_interval: §c无法解析时间间隔，请检查格式是否正确
+    interval_too_short: §c时间间隔过短，最小值为10秒。当前配置文件

@@ -1,0 +1,34 @@
+hitokoto:
+  help_message: |
+    ------------------------
+    §3Author: gubai
+    Please submit an issue on GitHub if you encounter any errors
+    https://github.com/gubaiovo/MCDR_hitokoto
+    
+    §a[Hitokoto]§r Commands:
+    §6!!hitokoto help§r Show help
+    §6!!hitokoto set <interval>§r Set interval for fetching hitokoto (minimum 10s, default 300s)
+    §6!!hitokoto start§r Start auto-fetching hitokoto
+    §6!!hitokoto stop§r Stop auto-fetching hitokoto
+    §6!!hitokoto status§r Show current status of auto-fetching hitokoto
+    
+    ------------------------
+    §a[Hitokoto]§r Command usage:
+    §6!!hitokoto set <interval>§r Set interval with units: s, m, h
+    Examples:
+    §6!!hitokoto set 30s§r Set interval to 30 seconds
+    §6!!hitokoto set 5m§r Set interval to 5 minutes
+    §6!!hitokoto set 1h§r Set interval to 1 hour
+
+  set_interval_success: §aInterval set successfully. Current interval: 
+  start_auto_hitokoto_success: §aStarted auto-fetching hitokoto
+  stop_auto_hitokoto_success: §aStopped auto-fetching. Will output last result
+  auto_hitokoto_is_running: §aAuto-hitokoto is running
+  auto_hitokoto_is_not_running: §aAuto-hitokoto has been stopped
+  
+  error:
+    load_config_error: §cFailed to load config. Using default settings
+    get_hitokoto_failed: §cFailed to fetch hitokoto. Please try again later
+    set_interval_failed: §cFailed to set interval
+    cant_parse_interval: §cInvalid interval format. Please check syntax
+    interval_too_short: §cInterval too short. Minimum is 10s. Current config value
