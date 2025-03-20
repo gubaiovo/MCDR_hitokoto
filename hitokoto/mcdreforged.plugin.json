@@ -4,7 +4,7 @@
   "name": "hitokoto",
   "description": {
     "en_us": "Get message from Hitokoto",
-    "zh_cn": "调用一言api"
+    "zh_cn": "自动推送一言至你的服务器"
   },
   "author": "gubai",
   "link": "https://github.com/gubaiovo/MCDR_hitokoto"
